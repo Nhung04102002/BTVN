@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+    text-align: center;
+    background-color: #d6c6e3;
+    color: #4b0082;
+    padding: 40px;
+    margin: 0;
+    font-size: 35px;
+}
+
+#taskbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4b0082;
+}
+
+li {
+    float: left;
+}
+
+a{
+    display: block;
+    padding: 20px;
+    color:white ;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+}
+
+section {
+    padding: 20px;
+}
